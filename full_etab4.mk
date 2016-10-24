@@ -24,7 +24,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # This is where we'd set a backup provider if we had one
-$(call inherit-product, device/ramos/w30/w30.mk)
+$(call inherit-product, device/generalmobile/etab4/etab4.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_etab4
