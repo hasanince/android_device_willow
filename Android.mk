@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),w30)
+ifeq ($(TARGET_DEVICE),etab4)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
