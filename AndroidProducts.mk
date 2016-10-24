@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_w30.mk
+    $(LOCAL_DIR)/full_etab4.mk
