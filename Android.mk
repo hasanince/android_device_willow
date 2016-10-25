@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),etab4)
+ifeq ($(TARGET_DEVICE),willow)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
