@@ -27,8 +27,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/generalmobile/etab4/etab4.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_etab4
-PRODUCT_DEVICE := etab4
+PRODUCT_NAME := full_willow
+PRODUCT_DEVICE := willow
 PRODUCT_BRAND := GM
 PRODUCT_MANUFACTURER := GM
-PRODUCT_MODEL := ETAB4
+PRODUCT_MODEL := Willow
