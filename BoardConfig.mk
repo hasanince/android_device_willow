@@ -24,8 +24,8 @@ TARGET_BOOTLOADER_BOARD_NAME := smdk
 
 # Kernel
 # TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-# TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
-TARGET_PREBUILT_KERNEL := device/generalmobile/etab4/kernel
+TARGET_KERNEL_CONFIG := willow_defconfig
+TARGET_PREBUILT_KERNEL := device/generalmobile/willow/kernel
 
 # Wifi
 WIFI_DRIVER := mt6620
@@ -42,4 +42,4 @@ BOARD_HAVE_SAMSUNG_WIFI := false
 BOARD_HAVE_SAMSUNG_BLUETOOTH := false
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := smdk4x12,ETAB4,etab4
+TARGET_OTA_ASSERT_DEVICE := smdk4x12,Willow,willow
